@@ -79,7 +79,7 @@ local highlight_groups = {
   StatusLine = { bg = p.light_blue, bold = true },
   StatusLineNC = { bg = p.dark_blue },
 
-  TabLine = { bg = p.blue },
+  TabLine = { fg = p.light_gray, bg = p.blue },
   TabLineFill = { bg = p.blue },
   TabLineSel = { fg = p.yellow, bg = p.dark_blue, bold = true },
 
