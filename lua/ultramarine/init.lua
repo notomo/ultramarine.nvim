@@ -27,9 +27,9 @@ local p = {
 M.pallet = p
 
 local highlight_groups = {
-  CurSearch = { bg = p.pink, bold = true },
-  IncSearch = { bg = p.pink },
-  Search = { fg = p.black, bg = p.light_green },
+  CurSearch = { fg = p.white, bg = p.pink, bold = true },
+  IncSearch = { fg = p.white, bg = p.pink, bold = true },
+  Search = { fg = p.black, bg = p.light_green, bold = true },
 
   Cursor = { bg = p.white },
   lCursor = { bg = p.white },
