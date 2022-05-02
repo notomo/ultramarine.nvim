@@ -9,7 +9,7 @@ local p = {
 
   dark_blue = "#06317f",
   blue = "#042461",
-  light_blue = "#3769C6",
+  light_blue = "#3362b8",
   lightest_blue = "#afd9da",
 
   red = "#f47f90",
