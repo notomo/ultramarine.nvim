@@ -49,7 +49,7 @@ local highlight_groups = {
   WildMenu = { fg = p.black, bg = p.lightest_blue, bold = true },
   MsgArea = { bg = p.blue },
 
-  LineNr = { fg = p.light_blue },
+  LineNr = { fg = p.dark_gray },
   CursorLineNr = { fg = p.yellow, bg = p.light_blue, bold = true },
   SignColumn = { bg = p.blue },
 
