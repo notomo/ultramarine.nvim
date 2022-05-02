@@ -19,10 +19,10 @@ local p = {
   yellow = "#f2bf80",
 
   dark_green = "#0a5a8f",
-  green = "#47a098",
+  green = "#38807a",
   light_green = "#7bd4cc",
 
-  pink = "#d47b83",
+  pink = "#b35212",
 }
 M.pallet = p
 
