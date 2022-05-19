@@ -46,6 +46,8 @@ local highlight_groups = {
   NormalFloat = { bg = p.black },
   FloatBorder = { bg = p.black },
   WinSeparator = { fg = p.light_blue, bg = p.blue },
+  WinBar = { bg = p.light_blue, bold = true },
+  WinBarNC = { bg = p.light_blue, bold = true },
   WildMenu = { fg = p.black, bg = p.lightest_blue, bold = true },
   MsgArea = { bg = p.blue },
 
