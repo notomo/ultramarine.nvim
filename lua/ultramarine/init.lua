@@ -23,6 +23,7 @@ local p = {
   light_green = "#7bd4cc",
 
   pink = "#b35212",
+  magenta = "#ff8aff",
 }
 M.pallet = p
 
@@ -121,6 +122,26 @@ local highlight_groups = {
 }
 M.highlight_groups = highlight_groups
 
+local terminal_colors = {
+  terminal_color_0 = p.black,
+  terminal_color_1 = p.red,
+  terminal_color_2 = p.light_green,
+  terminal_color_3 = p.yellow,
+  terminal_color_4 = p.light_blue,
+  terminal_color_5 = p.magenta,
+  terminal_color_6 = p.lightest_blue,
+  terminal_color_7 = p.white,
+  terminal_color_8 = p.black,
+  terminal_color_9 = p.orange,
+  terminal_color_10 = p.light_green,
+  terminal_color_11 = p.yellow,
+  terminal_color_12 = p.light_blue,
+  terminal_color_13 = p.magenta,
+  terminal_color_14 = p.lightest_blue,
+  terminal_color_15 = p.white,
+}
+M.terminal_colors = terminal_colors
+
 local nvim_set_hl = vim.api.nvim_set_hl
 local g = vim.g
 
@@ -139,6 +160,9 @@ function M.enable()
 
   for group, definition in pairs(highlight_groups) do
     nvim_set_hl(0, group, definition)
+  end
+  for name, color in pairs(terminal_colors) do
+    g[name] = color
   end
 end
 
