@@ -150,10 +150,10 @@ function M.enable()
     vim.o.background = "dark"
   end
   if g.colors_name then
-    vim.cmd([[highlight clear]])
+    vim.cmd.highlight("clear")
   end
   if g.syntax_on then
-    vim.cmd([[syntax reset]])
+    vim.cmd.syntax("reset")
   end
 
   g.colors_name = "ultramarine"
