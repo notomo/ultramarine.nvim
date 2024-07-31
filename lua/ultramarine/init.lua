@@ -69,7 +69,9 @@ local highlight_groups = {
   WarningMsg = { fg = p.red },
   ErrorMsg = { fg = p.red, bold = true },
 
-  Pmenu = { bg = p.blue },
+  Pmenu = { bg = p.black },
+  PmenuMatch = { fg = p.yellow, bold = true },
+  PmenuMatchSel = { fg = p.yellow, bg = p.light_blue, bold = true },
   PmenuSel = { bg = p.light_blue, bold = true },
   PmenuSbar = { bg = p.gray },
   PmenuThumb = { bg = p.yellow },
