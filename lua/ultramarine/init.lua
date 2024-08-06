@@ -70,7 +70,11 @@ local highlight_groups = {
   ErrorMsg = { fg = p.red, bold = true },
 
   Pmenu = { bg = p.black },
-  PmenuMatch = { fg = p.yellow, bold = true },
+  PmenuExtra = { fg = p.yellow, bg = p.black },
+  PmenuExtraSel = { fg = p.yellow, bg = p.light_blue },
+  PmenuKind = { fg = p.yellow, bg = p.black },
+  PmenuKindSel = { fg = p.yellow, bg = p.light_blue },
+  PmenuMatch = { fg = p.yellow, bg = p.black, bold = true },
   PmenuMatchSel = { fg = p.yellow, bg = p.light_blue, bold = true },
   PmenuSel = { bg = p.light_blue, bold = true },
   PmenuSbar = { bg = p.gray },
