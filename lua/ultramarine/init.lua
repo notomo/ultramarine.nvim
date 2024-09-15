@@ -2,6 +2,7 @@ local M = {}
 
 local p = {
   black = "#111133",
+  semi_black = "#444466",
   white = "#eeeeff",
   dark_gray = "#6666aa",
   gray = "#8888bb",
@@ -56,7 +57,7 @@ local highlight_groups = {
   CursorLineNr = { fg = p.yellow, bg = p.light_blue, bold = true },
   SignColumn = { bg = p.blue },
 
-  Folded = { fg = p.white, bg = p.dark_gray },
+  Folded = { fg = p.white, bg = p.semi_black },
   FoldColumn = { bg = p.blue },
 
   NonText = { fg = p.dark_gray },
