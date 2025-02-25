@@ -1,6 +1,4 @@
-PLUGIN_NAME:=$(basename $(notdir $(abspath .)))
-SPEC_DIR:=./spec/lua/${PLUGIN_NAME}
+include spec/.shared/neovim-plugin.mk
 
-test:
-	vusted --shuffle ${SPEC_DIR}
-.PHONY: test
+spec/.shared/neovim-plugin.mk:
+	git clone https://github.com/notomo/workflow.git --depth 1 spec/.shared
