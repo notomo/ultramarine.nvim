@@ -80,6 +80,7 @@ local highlight_groups = {
   PmenuSel = { bg = p.light_blue, bold = true },
   PmenuSbar = { bg = p.gray },
   PmenuThumb = { bg = p.yellow },
+  PmenuBorder = { fg = p.semi_black, bg = p.black },
 
   SpellBad = { fg = p.red },
   SpellCap = { fg = p.red },
